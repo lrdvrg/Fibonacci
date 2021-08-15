@@ -4,15 +4,6 @@ let server = require('../app.js');
 var should = chai.should();
 
 chai.use(chaiHttp);
-// describe('Pruebas', function () {
-//     describe('Validacion', function () {
-//         it('El return es un array', function () {
-//             result = fibonacci.getFibonacci(2);
-//             console.log(result);
-//             assert.typeOf(result, 'array');
-//         });
-//     });
-// });
 
 describe('Fibonacci.', () => {
     it('Devuelve status 200 si tiene contenido.', (done) => {

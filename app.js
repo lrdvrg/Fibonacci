@@ -16,7 +16,7 @@ app.set('port', 5255 || process.env.PORT);
 app.use('/api', routes)
 
 app.listen(app.get('port'), () => {
-    console.log(`Server is in http://localhost:${app.get('port')}`);
+    console.log(`Server corriendo en http://localhost:${app.get('port')}`);
 })
 
 module.exports = app;
