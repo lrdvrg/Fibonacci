@@ -1,7 +1,6 @@
 const FibonacciController = {};
 
 FibonacciController.getFibonacci = (request, response) => {
-    response.setHeader("Content-Type", "text/html");
     let nums = request.query.nums;
 
     let fib = [0, 1];

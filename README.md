@@ -22,3 +22,5 @@ node app.js
 
 ### Para correr las pruebas utilizar el comando: 
 npm test
+
+>**Nota: No se pueden ejecutar ambos al mismo tiempo, para ejecutar las pruebas debe cerrarse el servidor**
