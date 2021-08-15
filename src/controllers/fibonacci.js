@@ -4,7 +4,7 @@ FibonacciController.getFibonacci = (request, response) => {
     let nums = request.query.nums;
 
     let fib = [0, 1];
-    let data = [0];
+    let data = [1];
 
     for (let i = 2; i <= nums; i++) {
         fib[i] = fib[i - 1] + fib[i - 2];
